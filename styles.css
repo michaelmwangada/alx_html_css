@@ -1,0 +1,118 @@
+/* styles.css */
+
+/* Set body and main as flex containers */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Ensure the article and aside elements take up the correct proportions and can scroll */
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Basic styling for header and footer */
+header, footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+}
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    border-bottom: 2px solid #ddd;
+}
+
+footer {
+    border-top: 2px solid #ddd;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+/* Article-specific styles */
+article h2 {
+    color: #333;
+}
+
+article p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+article a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
